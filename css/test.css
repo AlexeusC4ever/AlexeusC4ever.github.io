@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+body::before {
+	content: '';
+    position: fixed; /* Фиксируем на одном месте */
+    left: 0; right: 0; /* Вся ширин */
+    top: 0; bottom: 0; /* Вся высота */
+    z-index: -1; /* Фон ниже текста */
+    /* Параметры фона */
+	background: url(../img/back.jpg);
+    filter: blur(2px); /* Размытие */
+   }
+body{
+	
+}
+.hz{
+	background-color:green;
+	}
+.menu{
+	margin: auto;
+	position: relative;
+	height:30px;
+	width:100%;
+	background-color:green;
+}
+#navbar{
+	vertical-align: baseline;
+}
+#navbar a {
+
+}
+#navbar li {
+	padding: 15px;
+    size: 100%;
+    vertical-align: baseline;
+    size: 70%;
+	display: inline;
+	border: 1px solid #575350;
+	float:left;
+}
+#navbar a:hover {    
+	
+}
+header{
+	margin: 0;
+    padding: 0;
+	right:20px;
+	background-color:#CC9966;
+}
+.HELLO{
+	right:20px;
+}
