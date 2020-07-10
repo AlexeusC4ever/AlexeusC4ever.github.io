@@ -513,6 +513,11 @@ textarea::-webkit-scrollbar {
             transform: translate(-50%, 0);
   }
 }
+@media(max-width: 443px) {
+  .connection .stlb {
+    width: 100%;
+  }
+}
 @media (max-width: 370px) {
   .service-block {
     width: 75%;
@@ -523,10 +528,5 @@ textarea::-webkit-scrollbar {
   .button {
   width: 90%;
   font-size: 1.2em;
-}
-  .connection .stlb {
-  border: 1px solid #00c6ff;
-  width: 100%;
-  display: inline-block;
 }
 }
