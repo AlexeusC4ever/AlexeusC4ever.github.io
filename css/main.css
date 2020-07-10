@@ -524,4 +524,9 @@ textarea::-webkit-scrollbar {
   width: 90%;
   font-size: 1.2em;
 }
+  .connection .stlb {
+  border: 1px solid #00c6ff;
+  width: 100%;
+  display: inline-block;
+}
 }
