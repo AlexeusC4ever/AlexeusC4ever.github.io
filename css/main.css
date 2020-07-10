@@ -520,4 +520,8 @@ textarea::-webkit-scrollbar {
   .service-block img {
     height: 8rem;
   }
+  .button {
+  width: 90%;
+  font-size: 1.2em;
+}
 }
